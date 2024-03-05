@@ -29,8 +29,8 @@ const App = () => {
       </div>
       <div className="container">
          <div className="mainframe flex items-center  justify-around flex-col">
-           <ReactPlayer url={playlist[currentVideoIndex].videoUrl} width='95%'
-          height='100%' autoplay light={<img src={playlist[currentVideoIndex].thumbnailUrl} alt='Thumbnail' className="cover" />}  controls className="player shadow-lg  rounded-xl mt-30" />
+           <ReactPlayer url={playlist[currentVideoIndex].videoUrl} width='90%'
+          height='80%' autoplay light={<img src={playlist[currentVideoIndex].thumbnailUrl} alt='Thumbnail' className="cover" />}  controls className="player shadow-lg  rounded-xl mt-30" />
             <div className="videoInfo p-4">
                <div className="flex justify-around head">
                <MdMovieFilter className="mr-5 icon" />
